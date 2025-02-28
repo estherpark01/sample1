@@ -2,4 +2,9 @@
 html{font-size: 16px; color: #333;}
 a{display: block; color: #333; text-decoration: none;}
 
-header{background: bisque;}
+header{background: bisque; display: flex;
+    justify-content: space-between;}
+header nav{width: 60%;}
+header nav ul{display: flex; list-style: none;
+    justify-content: space-between;}
+header nav ul li{width: 25%;}
